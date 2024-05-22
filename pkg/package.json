@@ -1,0 +1,14 @@
+{
+  "name": "search-filter",
+  "version": "0.1.0",
+  "files": [
+    "search_filter_bg.wasm",
+    "search_filter.js",
+    "search_filter.d.ts"
+  ],
+  "module": "search_filter.js",
+  "types": "search_filter.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
